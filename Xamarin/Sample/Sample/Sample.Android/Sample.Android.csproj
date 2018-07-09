@@ -46,6 +46,11 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>/Users/oberdan/Projects/ci-cd/keystore/Sample.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>iphoneandroid</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>Sample</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>iphoneandroid</AndroidSigningKeyPass>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
